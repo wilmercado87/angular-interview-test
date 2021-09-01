@@ -1,0 +1,32 @@
+<div class="form-login">
+  <form [formGroup]="formLogin">
+    <mat-form-field appearance="fill" class="input">
+      <mat-label>UserId</mat-label>
+      <input
+        matInput
+        type="text"
+        placeholder="User Id"
+        formControlName="userId"
+      />
+    </mat-form-field>
+
+    <mat-form-field appearance="fill" class="input">
+      <mat-label>Password</mat-label>
+      <input
+        matInput
+        type="password"
+        placeholder="Password"
+        formControlName="password"
+      />
+    </mat-form-field>
+    <span class="button"></span>
+    <button 
+      mat-flat-button
+      color="primary"
+      (click)="login()"
+      [disabled]="formLogin.invalid"
+    >
+      Login
+    </button>
+  </form>
+</div>

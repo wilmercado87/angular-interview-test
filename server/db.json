@@ -1,0 +1,22 @@
+{
+  "sign_in": {
+    "userId": "00100010321",
+    "password": "1111",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIwMDEwMDAxMDMyMSJ9.kPLjCmPJaw8ja",
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.e30.dw8gT8j5mKQbY8dVK453_dRICvBSg2oAQYFfzO1rpoY"
+  },
+  "accounts": [
+    {
+      "alias": "Cuenta de ahorros 1",
+      "number": "1234567890001",
+      "availableAmount": 100000,
+      "productType": "AC"
+    },
+    {
+      "alias": "Cuenta de ahorros 2",
+      "number": "1234567890002",
+      "availableAmount": 200000,
+      "productType": "AC"
+    }
+  ]
+}
